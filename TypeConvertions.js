@@ -11,6 +11,7 @@ let f=-1
 console.log(Boolean(f))
 let g="123.56 naveen.7"
 console.log(Number(g))
+console.log(parseInt(g))
 console.log(parseFloat(g))
 console.log("Addition of "+a+" " +"and"+" "+ c+" "+"="+(a+c))//with out tempalte literals
 console.log(`Addition of ${a} and ${c} =${a+c}`) //with template literals
