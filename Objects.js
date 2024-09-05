@@ -20,3 +20,8 @@ console.log(a)
 //delete the propericies from the object 
 delete a["age k"]
 console.log(a)
+a.cal=function()
+{
+console.log("red")
+}
+a.cal()
