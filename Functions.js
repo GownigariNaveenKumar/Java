@@ -27,5 +27,5 @@ console.log(kkk)
 let aa='i3';
 if(aa<'i5')
 {
-    console.log("i5 is bigger")
+    console.log("i 5 is bigger")
 }
