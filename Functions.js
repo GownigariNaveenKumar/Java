@@ -24,3 +24,8 @@ function add1(a,b,...c)
 }
 let kkk=add1(1,2,3,4,7)
 console.log(kkk)
+let aa='i3';
+if(aa<'i5')
+{
+    console.log("i5 is bigger")
+}
