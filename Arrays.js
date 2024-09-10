@@ -29,16 +29,23 @@
 // console.log(a.push(2,34))
 // console.log(a.pop())
 // console.log(a)
-let a1=[1,2,5,6,7]
-let a2=[4,3,6,8,8]
-let a3=[3,4,5,"naveen"]
-let p=a1.concat(a2,a3)
-console.log(p)
-let join1 =a1.join("$")
-console.log(join1)
-let s=a1.join(a2)
-console.log(s)
-let value=[1,2,3,4,5,6,7,8]
-console.log(value.slice(0,3))
-console.log(value.splice(0,4))
-console.log(value)
+// let a1=[1,2,5,6,7]
+// let a2=[4,3,6,8,8]
+// let a3=[3,4,5,"naveen"]
+// let p=a1.concat(a2,a3)
+// console.log(p)
+// let join1 =a1.join("$")
+// console.log(join1)
+// let s=a1.join(a2)
+// console.log(s)
+// let value=[1,2,3,4,5,6,7,8]
+// console.log(value.slice(0,3))
+// console.log(value.splice(0,4))
+// console.log(value)
+let s="ab"
+let a='ab'
+console.log(a>s)
+let p=["naveen","manoj","virat","kohli"]
+let va=[1,2]
+let ss=p.join(va)
+console.log(ss)
