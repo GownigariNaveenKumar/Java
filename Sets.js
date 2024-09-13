@@ -6,3 +6,8 @@ s.add(12).add(13).add(12).add("naveen").add("Virat").add("13") //adding elements
 s.delete("naveen") //deleting element from the set 
 console.log(s)
 console.log(s.has("naveen"))//has method  is used to check the element is present or not 
+let ss={
+    name:"nxdvch",
+    age:20
+}
+
