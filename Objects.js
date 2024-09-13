@@ -1,27 +1,37 @@
-let a={
-    name:'naveen',
-    'age k':24,
-    laptop:{
-        name:'lenovo',
-        ram:'16GB',
-        price:20
+//object literal 
+let s={name:"virat",age:20}
+s.name2="naveen"
+s["age2"]=20;
+console.log(s)
+//object method
+let p=new Object()
+p.age=20;
+p["name"]="king"
+console.log(p)
+//object creating by using constructor function
+function Team(name,age)
+{
+    this.name=name;
+    this.age=age;
+    this.name1=function()
+    {
+    console.log(this.name ,this.age)
     }
 
 }
-for(let k in a)
-{
-   console.log(k)
+let s1=new Team("naveem",20)
+console.log(Object.entries(s1))
+
+let student={
+    name:"naveen",
+    age:20
 }
-//adding properties two object
-a.amount=100;
- a['amount1']
- a.laptop.color="red"
-console.log(a)
-//delete the propericies from the object 
-delete a["age k"]
-console.log(a)
-a.cal=function()
-{
-console.log("red")
-}
-a.cal()
+let student1=Object.create(student,{name:{
+    value:"ssw",
+
+},
+age:{
+    value:20
+}})
+console.log(student1 
+)
